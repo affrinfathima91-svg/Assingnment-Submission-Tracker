@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f9;
+}
+
+/* DARK MODE */
+.dark {
+  background: #111;
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #1e3a8a;
+  color: white;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.navbar ul li {
+  cursor: pointer;
+}
+
+section {
+  padding: 90px 40px;
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(90deg, #2563eb, #06b6d4);
+  color: white;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.dark .card {
+  background: #222;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+}
